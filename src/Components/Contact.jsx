@@ -1,0 +1,117 @@
+import React from 'react'
+import AccordianQuestion from './AccordianQuestion'
+import { Link } from "react-router-dom"
+import FooterSection from './FooterSection'
+function Contact() {
+	return (
+		<>
+			<h1 className='text-center text-6xl font-primary font-[600]'>Contact us</h1>
+			<p className='text-xl font-primary text-light mx-auto text-center w-8/12 mt-7'>Effortlessly Track, Manage, and Optimize Your Personal and Business Finances. Your Comprehensive Companion.</p>
+			<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-32">
+				<div className="flex flex-col items-center p-12  bg-[#f1ecff] rounded-[40px] shadow-md text-md">
+					<div className="w-14 h-14 mb-4">
+						<img
+							src="https://framerusercontent.com/images/gBg0M0ZMKd9HxqBVk1CC8R2M8.svg"
+							alt="Sales Icon"
+							className="w-full h-full object-cover rounded-full"
+						/>
+					</div>
+					<h4 className=" font-semibold text-[#172342] text-3xl">Sales</h4>
+					<p className="text-xl text-center  mt-2 mb-4 text-light">
+						Transform Your Brand with Cutting-Edge Technology and Creative Solutions That Captivate and Engage Your Audience
+					</p>
+					<Link
+						to="/contact"
+						className="text-xl px-5 py-2 bg-[#172342] text-white rounded-full hover:bg-[#1e2e4a] transition-colors"
+					>
+						Talk to Sales
+					</Link>
+				</div>
+
+				<div className="flex flex-col items-center p-12 text-center bg-[#ecfaff] rounded-[40px] shadow-md">
+					<div className="w-14 h-14 mb-4">
+						<img
+							src="https://framerusercontent.com/images/WcqIyAEFRVgg7A6MUbnoWGCeXng.svg"
+							alt="Support Icon"
+							className="w-full h-full object-cover rounded-full"
+						/>
+					</div>
+					<h4 className="text-3xl font-semibold text-[#172342]">Help & Support</h4>
+					<p className="text-xl text-center  mt-2 mb-4 text-light">
+						Elevate Your Business with Innovative Technology and Creative Strategies That Attract and Retain Your Customers
+					</p>
+					<Link
+						to="/demo"
+						className="text-xl px-5 py-2 bg-[#172342] text-white rounded-full hover:bg-[#1e2e4a] transition-colors"
+					>
+						Submit a Request
+					</Link>
+				</div>
+			</div>
+			<div className="bg-white rounded-3xl shadow-lg p-16 grid grid-cols-1 sm:grid-cols-2 border">
+				<div className='items-center'>
+					<div className="flex items-start space-x-4">
+						<div className="w-10 h-10">
+							<img
+								src="https://framerusercontent.com/images/d6R5GUEYHdSxJKKco8ocvHgdoc.svg"
+								alt="Office Icon"
+								className="w-full h-full object-cover rounded-full"
+							/>
+						</div>
+						<div>
+							<h4 className="text-3xl font-semibold text-[#172342]">
+								FundFlex Office Location
+							</h4>
+						</div>
+					</div>
+
+					<p className="text-xl text-[#5E6575] my-10">
+						Fundflex Finance Headquarters:
+						<br />
+						123 Finance Street, Suite 456
+						<br />
+						San Francisco, CA 94105, USA
+					</p>
+
+					<div className="space-y-2 text-xl">
+						<p className="text-[#5E6575]">
+							Phone:{' '}
+							<a
+								href="tel:+1234567890"
+								className="underline"
+								target="_blank"
+								rel="noopener"
+							>
+								(123) 456-7890
+							</a>
+						</p>
+						<p className=" text-[#5E6575]">
+							Email:{' '}
+							<a
+								href="mailto:info@fundflexfinance.com"
+								className="underline"
+								target="_blank"
+								rel="noopener"
+							>
+								info@fundflexfinance.com
+							</a>
+						</p>
+					</div>
+				</div>
+				<div className="overflow-hidden rounded-2xl h-80 w-full">
+					<iframe
+						title="Google Maps"
+						className="w-full h-full border-0"
+						src="https://maps.google.com/maps?q=52.37588,4.891295&z=15&output=embed"
+						allowFullScreen
+						loading="lazy"
+					></iframe>
+				</div>
+			</div>
+			<AccordianQuestion />
+			<FooterSection />
+		</>
+	)
+}
+
+export default Contact
