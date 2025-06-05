@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png'
 const socialLinks = [
 	{
 		href: 'https://www.facebook.com/',
@@ -29,14 +30,14 @@ function FooterSection() {
 				<div>
 					<a href="/" className="inline-block mb-4">
 						<img
-							src="https://framerusercontent.com/images/1KjvnzYGjyWqTlT2x6nNXj37o.svg"
+							src={logo}
 							alt="Logo"
 							width={157}
 							height={33}
 						/>
 					</a>
 					<p className="text-lg opacity-80">
-						Effortlessly Track, Manage, and Optimize Your Personal Finances.
+						Built on a Foundation of World-Class Partnerships.
 					</p>
 				</div>
 
@@ -45,7 +46,6 @@ function FooterSection() {
 					<ul className="space-y-2 text-lg">
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/about">About Us</Link></li>
-						<li><Link to="/pricing">Pricing</Link></li>
 						<li><Link to="/contact">Contact Us</Link></li>
 					</ul>
 				</div>
@@ -63,13 +63,14 @@ function FooterSection() {
 				{/* Contact */}
 				<div>
 					<h4 className="text-lg font-semibold mb-3 text-black">Contact</h4>
-					<p className='text-lg'>Email: support@example.com</p>
-					<p className='text-lg'>Phone: +1 (234) 567-8901</p>
+					<p className='text-lg'>Email: help@saaro.com</p>
+					<p className='text-lg'>Phone: +91 1234567890</p>
+					<p className='text-lg'>Address: 123 Tech Avenue, Jaipur, Rajasthan, India</p>
 				</div>
 			</div>
 
 			<div className="mt-10 text-center text-lg opacity-60 flex justify-between items-center">
-				<p>&copy; {new Date().getFullYear()} YourCompany. All rights reserved.</p>
+				<p>&copy; {new Date().getFullYear()} Saaro. All rights reserved.</p>
 				<div className="flex gap-4 ">
 					{socialLinks.map((link, index) => (
 						<a

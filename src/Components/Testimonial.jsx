@@ -1,37 +1,37 @@
 import React from 'react'
 const testimonials = [
 	{
-		text: "I love how easy it is to track my spending with this app! It's helped me stick to my budget.",
-		name: "Sarah",
-		company: "GlOBALNOMADS",
+		text: "Saaro Health revolutionized how we manage patient records. It’s a game-changer for our clinic!",
+		name: "Dr. Neha Sharma",
+		company: "Sunrise Clinics",
 		image: "https://framerusercontent.com/images/JzGnDOoofshSnqU9QI3SREGa9Vs.png",
 	},
 	{
-		text: "Transaction management has never been easier! This app has saved me so much!",
-		name: "Emily",
-		company: "CYBERLEAP",
+		text: "Saaro’s automation tools helped us scale operations with ease. Manufacturing has never been so efficient!",
+		name: "Amit Patel",
+		company: "XYZ Industries",
 		image: "https://framerusercontent.com/images/NNZUCmEc36J7kATr3l6A788rnY.png",
 	},
 	{
-		text: "The advanced analytics feature is a game-changer! It's helped me identify areas!",
-		name: "John",
-		company: "GlOBALNOMADS",
+		text: "From content scheduling to analytics, Saaro Social makes managing our campaigns effortless.",
+		name: "Priya Verma",
+		company: "Creative Agency",
 		image: "https://framerusercontent.com/images/GVsqrMpN6bGhL3aJlvWuyPJtuSU.png",
 	},
 	{
-		text: "I've tried other finance tracking apps, but none compare to this one. Intuitive and budget friendly.",
-		name: "Alex",
-		company: "FINSMART",
+		text: "Saaro's solutions adapt perfectly to our needs, saving us hours of manual work every day.",
+		name: "Rohit Mehta",
+		company: "LogiCorp",
 		image: "https://framerusercontent.com/images/Grftpesh3EZDtoox3C2oZP9sQE.png",
 	},
 	{
-		text: "I can't imagine managing my finances without this app. It's become an essential part!",
+		text: "Saaro's solutions adapt perfectly to our workflow, reducing complexity and improving efficiency.",
 		name: "Leonel",
 		company: "FLOCLIPS",
 		image: "https://framerusercontent.com/images/OBJlz84HcB7DGfhBE0gXY3FzCb0.png",
 	},
 	{
-		text: "I couldn't be happier with the outcome. Prowess and creativity helped me a lot.",
+		text: "Saaro's tools are incredibly efficient—what used to take hours now takes minutes.",
 		name: "Martin",
 		company: "CYBERLEAP",
 		image: "https://framerusercontent.com/images/t2HyjSGvELgwe1p7cPKWLYn3Ps.png",
@@ -40,9 +40,9 @@ const testimonials = [
 function Testimonial() {
 	return (
 		<section className="py-12 bg-white">
-			<h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">See Why People Love Us</h2>
+			<h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Why Businesses Choose Saaro.</h2>
 			<p className="text-gray-600 max-w-xl mx-auto mb-10 text-xl text-center">
-				Effortlessly Track, Manage, and Optimize Your Personal and Business Finances. Your Comprehensive Companion.
+				See how Saaro’s automation tools are transforming businesses across industries.
 			</p>
 			<ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto bg-slate-400/30 gap-x-[2px] gap-y-[2px]">
 				{testimonials.map((t, index) => (

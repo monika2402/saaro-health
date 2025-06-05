@@ -5,8 +5,8 @@ import FooterSection from './FooterSection'
 function Contact() {
 	return (
 		<>
-			<h1 className='text-center text-6xl font-primary font-[600]'>Contact us</h1>
-			<p className='text-xl font-primary text-light mx-auto text-center w-8/12 mt-7'>Effortlessly Track, Manage, and Optimize Your Personal and Business Finances. Your Comprehensive Companion.</p>
+			<h1 className='text-center text-6xl font-primary font-[600]'>Let’s Connect!</h1>
+			<p className='text-xl font-primary text-light mx-auto text-center w-8/12 mt-7'>We’re not just another tech company—we’re your partners in innovation, and we’d love to hear from you. Whether you’ve got a question, an idea, or simply want to chat about how technology can transform your world, we’re all ears!</p>
 			<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-32">
 				<div className="flex flex-col items-center p-12  bg-[#f1ecff] rounded-[40px] shadow-md text-md">
 					<div className="w-14 h-14 mb-4">
@@ -16,9 +16,9 @@ function Contact() {
 							className="w-full h-full object-cover rounded-full"
 						/>
 					</div>
-					<h4 className=" font-semibold text-[#172342] text-3xl">Sales</h4>
+					<h4 className=" font-semibold text-[#172342] text-3xl">Saaro Solutions</h4>
 					<p className="text-xl text-center  mt-2 mb-4 text-light">
-						Transform Your Brand with Cutting-Edge Technology and Creative Solutions That Captivate and Engage Your Audience
+						Empower Your Industry with Smart, API-Driven Technology that Simplifies Complex Workflows and Accelerates Growth.
 					</p>
 					<Link
 						to="/contact"
@@ -36,9 +36,9 @@ function Contact() {
 							className="w-full h-full object-cover rounded-full"
 						/>
 					</div>
-					<h4 className="text-3xl font-semibold text-[#172342]">Help & Support</h4>
+					<h4 className="text-3xl font-semibold text-[#172342]">Customer Care & Support</h4>
 					<p className="text-xl text-center  mt-2 mb-4 text-light">
-						Elevate Your Business with Innovative Technology and Creative Strategies That Attract and Retain Your Customers
+						Partner with Us for Reliable, Expert Support to Ensure Seamless Integration and Maximum Impact of SaaRo’s Technology in Your Operations.
 					</p>
 					<Link
 						to="/demo"
@@ -60,17 +60,17 @@ function Contact() {
 						</div>
 						<div>
 							<h4 className="text-3xl font-semibold text-[#172342]">
-								FundFlex Office Location
+								Saaro Office Location
 							</h4>
 						</div>
 					</div>
 
 					<p className="text-xl text-[#5E6575] my-10">
-						Fundflex Finance Headquarters:
+						Saaro Headquarters:
 						<br />
-						123 Finance Street, Suite 456
+						123 Tech Avenue,
 						<br />
-						San Francisco, CA 94105, USA
+						Jaipur, Rajasthan, India
 					</p>
 
 					<div className="space-y-2 text-xl">
@@ -93,7 +93,7 @@ function Contact() {
 								target="_blank"
 								rel="noopener"
 							>
-								info@fundflexfinance.com
+								help@saaro.com
 							</a>
 						</p>
 					</div>

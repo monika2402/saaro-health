@@ -20,6 +20,7 @@ export default {
 			colors: {
 				light:"#5e6575"
 				,
+				'saaro-bg': '#F0FDF9',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

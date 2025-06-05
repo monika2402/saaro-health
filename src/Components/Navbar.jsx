@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
+import logo from '../assets/logo.png'
 import {
 	NavigationMenu,
 	NavigationMenuContent,
@@ -12,10 +13,13 @@ import {
 	navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 const navItems = [
-	{ label: "Pricing", path: "/pricing" },
-	{ label: "About", path: "/about" },
-	{ label: "Contact us", path: "/contact" },
-]
+  { label: "Pricing", path: "/pricing" },
+  { label: "About", path: "/about" },
+  { label: "Doctors", path: "/for-doctors" },
+  { label: "Clinic", path: "/for-clinic" },
+  { label: "Hospital", path: "/for-hospital" },
+  { label: "Pharmacy", path: "/for-pharmacy" },
+];
 
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false)
@@ -45,7 +49,7 @@ export default function Navbar() {
 				<div className="flex-shrink-0">
 					<Link to="/" className="flex items-center">
 						<img
-							src="https://framerusercontent.com/images/1KjvnzYGjyWqTlT2x6nNXj37o.svg"
+							src={logo}
 							alt="fundFlex logo"
 							className="h-8"
 						/>

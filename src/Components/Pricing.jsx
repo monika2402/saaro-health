@@ -5,58 +5,67 @@ import AccordianQuestion from './AccordianQuestion'
 import TransformationSection from './TransformationSection'
 import FooterSection from './FooterSection'
 const pricing = [
-	{
-		title: "Starter Plan",
-		explanaition: "For small companies",
-		price: "49",
-		priceExplanation: "per person, per month",
-		features: [
-			"Access to basic features",
-			"Attend events",
-			"Basic reporting + analytics",
-			"Automatic updates",
-			"Up to 10 individual users"
-		],
-		ispopular: false,
-		bgColor: "#e9e1ff"
-	},
-	{
-		title: "Standard Plan",
-		explanaition: "For small companies",
-		price: "149",
-		priceExplanation: "per person, per month",
-		features: [
-			"Access to basic features",
-			"Attend events",
-			"Basic reporting + analytics",
-			"Automatic updates",
-			"Up to 10 individual users"
-		],
-		ispopular: true,
-		bgColor: "#ffede8"
-	},
-	{
-		title: "Premium Plan",
-		explanaition: "For small companies",
-		price: "199",
-		priceExplanation: "per person, per month",
-		features: [
-			"Access to basic features",
-			"Attend events",
-			"Basic reporting + analytics",
-			"Automatic updates",
-			"Up to 10 individual users"
-		],
-		ispopular: false,
-		bgColor: "#ecfaff"
-	}
-]
+  {
+    title: "Appointment Ease",
+    explanaition: "For solo doctors or small clinics to simplify appointment scheduling",
+    price: "₹10,000",
+    priceExplanation: "/year",
+    features: [
+      "Book and manage appointments in real-time",
+      "Send automatic patient reminders",
+      "Reschedule or cancel with ease",
+      "Calendar app integration",
+      "Patient self-booking support",
+      "Secure and private data handling"
+    ],
+    ispopular: false,
+    bgColor: "#e9e1ff"
+  },
+  {
+    title: "Practitioner Pro",
+    explanaition: "A full management suite for doctors excluding billing and queue features",
+    price: "₹25,000",
+    priceExplanation: "/year",
+    features: [
+      "All Appointment Ease features",
+      "AI-assisted prescription writing",
+      "Patient health data insights",
+      "Telemedicine consultation support",
+      "Auto-organized notes & documents",
+      "Mobile app for doctors and patients",
+      "Cloud-based secure data storage"
+    ],
+    ispopular: true,
+    bgColor: "#ffede8"
+  },
+  {
+    title: "Clinic Pro",
+    explanaition: "End-to-end solution for multi-doctor clinics with complete management tools",
+    price: "₹35,000",
+    priceExplanation: "/year",
+    features: [
+      "All features from Appointment Ease and Practitioner Pro",
+      "Automated billing & invoicing",
+      "Effortless patient queue management",
+      "Custom dashboards for engagement",
+      "Integrated lab results & imaging",
+      "AI-driven health risk predictions",
+      "Digital patient consent management",
+      "Comprehensive analytics and reports",
+      "Patient-facing mobile app"
+    ],
+    ispopular: false,
+    bgColor: "#ecfaff"
+  }
+];
+
+
 function Pricing() {
 	return (<>
 		<Navbar />
 		<div>
 			<h1 className='text-center text-6xl font-primary font-[600]'>Choose your Plan</h1>
-			<p className='text-xl font-primary text-light mx-auto text-center w-8/12 mt-7'>Effortlessly Track, Manage, and Optimize Your Personal and Business Finances. Your Comprehensive Companion.</p>
+			<p className='text-xl font-primary text-light mx-auto text-center w-8/12 mt-7'>Simplify Clinic Operations, Enhance Patient Care, and Grow Your Practice with Saaro — Your All-in-One Clinic Management Solution.</p>
 			<ul className="grid grid-cols-3 gap-3 my-8">
 				{
 					pricing.map((eachItem, idx) => {

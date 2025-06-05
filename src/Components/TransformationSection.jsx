@@ -6,8 +6,8 @@ function TransformationSection() {
 		<>
 			<div className="flex justify-between items-center gap-5 bg-[#ecfaff] p-10 mt-10 rounded-3xl">
 				<div className="flex flex-col gap-5">
-					<h2 className="text-4xl font-bold">Ready to Transform Your Experience?</h2>
-					<p className="text-lg  ">Get Started Now and Explore New Possibilities with Our Comprehensive Resources.</p>
+					<h2 className="text-4xl font-bold">Ready to Streamline Your Clinic?</h2>
+					<p className="text-lg  ">Get started with Saaro and experience smarter patient care, seamless operations, and real growth.</p>
 					<Link to="/" className='rounded-[30px] text-white bg-black px-5 py-3 self-start flex justify-start items-center'>Get Started now <ArrowUpRight /></Link>
 				</div>
 				<div className="relative">
