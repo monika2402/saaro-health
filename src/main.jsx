@@ -17,6 +17,7 @@ import SaaroHealthCardiologistPage from './Components/SaaroHealthCardiologistPag
 import ClinicPage from './Components/ClinicPage'
 import HospitalPage from './Components/HospitalPage'
 import PharmacyPage from './Components/PharmacyPage'
+import SaaroHomepage from './Components/SaaroHomepage'
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "/for-pharmacy",
         element: <PharmacyPage />
+      },
+      {
+        path: "/saaro-health",
+        element: <SaaroHomepage />
       }
     ],
     errorElement: <NotFound />
